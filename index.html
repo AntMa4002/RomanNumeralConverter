@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <link rel = 'stylesheet' tupe="text/css" href = 'style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Roman Numeral Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Roman Numeral Converter</h1>
+        <h2 id = 'title1'>Number to Roman Numeral</h2>
+        <h3 id = 'title2'>Converts up to 3999!</h3>
+        <br>
+    </header>
+    <main>
+        <section class = 'enter'>
+            <br>
+            <input id = 'enter-box' type = 'text' value = ''/>
+        </section>
+        <table>
+            <tr>
+                <td><button id = 'S1' onclick = "inputValue(this)">1</button></td>
+                <td><button id = 'S2' onclick = "inputValue(this)">2</button></td>
+                <td><button id = 'S3' onclick = "inputValue(this)">3</button></td>
+            </tr>
+            <tr>
+                <td><button id = 'S4' onclick = "inputValue(this)">4</button></td>
+                <td><button id = 'S5' onclick = "inputValue(this)">5</button></td>
+                <td><button id = 'S6' onclick = "inputValue(this)">6</button></td>
+            </tr>
+            <tr id = 'extra'>
+                <td><button id = 'S7' onclick = "inputValue(this)">7</button></td>
+                <td><button id = 'S8' onclick = "inputValue(this)">8</button></td>
+                <td><button id = 'S9' onclick = "inputValue(this)">9</button></td>
+            </tr>
+            <tr>
+                <td><button id = 'S10' onclick = "inputValue(this)">0</button></td>
+                <td colspan="2" ><button id = 'enter-button' onclick = "sendValue(this)">Enter</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id = 'delete' onclick = "removeValue()">Delete</button></td>
+                <td><button id = 'clear' onclick = "clearValue()">Clear</button></td>
+            </tr>
+        </table>
+        <div class = 'result-box'>
+            <h2>Result</h2>
+            <textarea id = 'result'></textarea>
+        </div>
+        <div class = 'button-change'>
+            <button id = 'change' onclick = 'conversionChangeTo()'>Change Converter</button>
+            <button id = 'change-back' onclick = 'conversionChangeBack()'>Change Back</button>
+        </div>
+    </main>
+    <script type="text/javascript" src = 'script.js'></script>
+</body>

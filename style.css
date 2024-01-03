@@ -1,0 +1,108 @@
+html    {
+    background-color: slateblue;
+}
+
+body    {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header   {
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+h1  {
+    margin: 5px auto;
+    background-color: rgba(10, 240, 240, 0.6);
+    border-radius: 5rem;
+    
+}
+
+h2  {
+    width: 450px;
+    margin: 15px auto;
+    background-color: rgba(66, 255, 167, 0.6);
+    border-radius: 5rem;
+}
+
+h3  {
+    width: 375px;
+    margin: 15px auto;
+    background-color: rgba(66, 255, 167, 0.6);
+    border-radius: 5rem;
+}
+
+.enter  {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#enter-box,#result  {
+    font-family: 'Merriweather', serif;
+    width: 330px;
+    height: 25px;
+    font-size: 20px;
+    transition: width 0.3s ease;
+}
+
+#enter-box:focus    {
+    width: 500px;
+}
+
+.result-box {
+    text-align: center;
+}
+
+.result-box h2 {
+    text-align: center;
+    width: 250px;
+}
+
+
+table  {
+    text-align: center;
+    margin: 5px auto;
+}
+
+#S1,#S2,#S3,#S4,#S5,#S6,#S7,#S8,#S9,#S10,#S11,#S12,#S13,#clear  {
+    font-family: 'Merriweather', serif;
+    width: 100px;
+    height: 70px;
+    margin: 20px 10px;
+    background-color: rgb(10, 240, 240);
+    font-weight: bold;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#S1:hover,#S2:hover,#S3:hover,#S4:hover,#S5:hover,#S6:hover,#S7:hover,#S8:hover,#S9:hover,#S10:hover,#S11:hover,#S12:hover,#S13:hover,#enter-button:hover,#change:hover,#change-back:hover,#delete:hover,#clear:hover  {
+    background-color: rgb(186, 10, 240);
+}
+
+#enter-button, #delete  {
+    font-family: 'Merriweather', serif;
+    width: 220px;
+    height: 70px;
+    background-color: rgb(10, 240, 240);
+    font-weight: bold;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.button-change  {
+    text-align: center;
+}
+
+#change,#change-back {
+    font-family: 'Merriweather', serif;
+    width: 450px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px auto;
+    background-color: rgba(10, 240, 240, 0.6);
+    transition: background-color 0.3s ease;
+}
